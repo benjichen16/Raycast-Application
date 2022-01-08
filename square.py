@@ -20,7 +20,7 @@ spacing = 5
 y = 0
 n = 20
 
-class square:
+class Square:
     def __init__(self, x, y, col, row, width):
         self.x = x
         self.y = y
@@ -51,4 +51,19 @@ class square:
 
     def reset(self):
         self.color = WHITE
+
+    def get_x(self):
+        return self.x
+
+    def get_y(self):
+        return self.y
+    
+    def get_row(self):
+        return self.row
+
+    def get_col(self):
+        return self.col
+
+    def get_width(self):
+        return self.width
     
