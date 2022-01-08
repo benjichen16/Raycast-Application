@@ -66,4 +66,3 @@ class Square:
 
     def get_width(self):
         return self.width
-    
